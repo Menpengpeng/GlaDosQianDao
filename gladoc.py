@@ -4,6 +4,8 @@ import json
 import config
 import datetime
 from wxpusher import WxPusherTest
+import urllib3
+urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 
 cookie = config.GLADOC_CONFIG['cookie']
 wx = WxPusherTest()
