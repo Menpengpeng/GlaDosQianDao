@@ -1,6 +1,0 @@
-name: 'GitHub Actions GlaDos QianDao'
- 
-on:
-  push:
-  schedule:
-    - cron: '0 21 * * *'
